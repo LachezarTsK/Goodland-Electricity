@@ -33,7 +33,7 @@ public class Solution {
     int total_powerPlants = 0;
     int index_suitableCity = -1;
 
-    /*
+    /**
      * Checks for the first suitable city to build a power plant.
      * This checking covers only the first city/cities from one side
      * of the potential first power plant. All other checks are handled by
