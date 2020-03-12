@@ -21,7 +21,7 @@ public class Solution {
    * to be built only in cities with an array value of '1'.
    *
    * Each side of a city with a power plant covers 'range_fromOneSide-1' number of cities. 
-   * Thus,including the city with the power plant, the number of cities covered from both sides 
+   * Thus, including the city with the power plant, the number of cities covered from both sides 
    * is '2*range_fromOneSide-1'.
    *
    * @return A positive integer, representing the minimum number of cities with power plants that
