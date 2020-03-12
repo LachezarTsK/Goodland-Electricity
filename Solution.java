@@ -80,7 +80,7 @@ public class Solution {
       }
 
       /**
-       * The distance from the previous power plant to the next potentially suitable city
+       * The distance from the previous power plant to the next potentially suitable city for power plant
        * is greater than '2*range_fromOneSide-1'.
        */
       if (index_suitableCity == -1) {
