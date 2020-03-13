@@ -73,22 +73,14 @@ public class Solution {
       }
 
       /**
-       * The distance from the previous power plant to the last city is less than range_fromOneSide.
-       */
-      //if (coveredCities < range_fromOneSide) {
-    //    return total_powerPlants;
-  //    }
-
-      /**
-       * The distance from the previous power plant to the next potentially suitable city for a power plant
-       * is greater than '2*range_fromOneSide-1'.
+       * The next '2*range_fromOneSide-1' cities from the last power plant are not suitable for a power plant.
        */
       if (index_suitableCity == -1) {
         return -1;
       }
 
       /** 
-      * The distance from the next power plant to the last city in the array is less than range_fromOneSide. 
+      * The distance from the last power plant to the last city in the array is less than range_fromOneSide. 
       */
       if (cities.length - 1 - index_suitableCity < range_fromOneSide) {
         total_powerPlants++;
