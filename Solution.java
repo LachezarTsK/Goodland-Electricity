@@ -75,9 +75,9 @@ public class Solution {
       /**
        * The distance from the previous power plant to the last city is less than range_fromOneSide.
        */
-      if (coveredCities < range_fromOneSide) {
-        return total_powerPlants;
-      }
+      //if (coveredCities < range_fromOneSide) {
+    //    return total_powerPlants;
+  //    }
 
       /**
        * The distance from the previous power plant to the next potentially suitable city for a power plant
